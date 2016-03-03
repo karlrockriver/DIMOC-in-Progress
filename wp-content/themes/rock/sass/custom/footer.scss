@@ -11,3 +11,12 @@
 	background-color: $color-3;
 	padding: 1rem;
 }
+
+.footer-nav .menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	li {
+		margin-right: .5rem;
+	}
+}

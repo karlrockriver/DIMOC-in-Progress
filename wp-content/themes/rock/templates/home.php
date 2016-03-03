@@ -17,9 +17,30 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			
+
 <div class="home-hero" style="background-image: url(<?php the_field('home_hero_image'); ?>)">
-	<div class="container-color-2-trans">
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-12 col-md-8 col-md-offset-2">
+			<div class="search-container">
+				<div class="search-input">
+					<input type="search" placeholder="Search here">
+					<div class="type-selector">
+						<label>
+							<input name="photos" checked="checked" type="checkbox">Photos
+						</label>
+						<label>
+							<input name="videos" checked="checked" type="checkbox">Videos
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- <div class="container-color-2-trans">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12">
@@ -27,7 +48,7 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 </div>
 
 <div class="area-warm-1">

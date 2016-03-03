@@ -4,6 +4,12 @@
 	padding: 0;
 }
 
+.inline {
+	display: inline;
+}
+.inline-md {
+}
+
 .area-white {
 	width: 100%;
 	background-color: $white;
@@ -44,6 +50,8 @@
 }
 
 .home-thumbnail {
+	display: block;
+	position: relative;
 	margin-bottom: 30px;
 	background-size: cover;
 	background-repeat: none;
@@ -56,6 +64,9 @@
 	color: $white;
 	width: 100%;
 	padding: 1rem;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
 }
 
 .browse-list {

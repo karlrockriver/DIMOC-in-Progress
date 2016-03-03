@@ -20,8 +20,14 @@
 <div class="container">
 
 	<div class="row no-margin-padding text-white">
-		<div class="col-xs-12 col-md-3 no-margin-padding">logo</div>
-		<div class="col-xs-12 col-md-4 col-md-offset-3 middle-xs">menu</div>
+		<div class="col-xs-12 col-md-3 no-margin-padding">
+			<img src="images/logo.png">
+		</div>
+		<div class="col-xs-12 col-md-4 col-md-offset-3 middle-xs">
+			<nav class="footer-nav">
+				<?php wp_nav_menu( array( 'menu' => 'Footer Menu' ) ); ?>
+			</nav>
+		</div>
 		<div class="col-xs-12 col-md-2 middle-xs">social</div>
 	</div>
 
@@ -32,7 +38,8 @@
 		<div class="col-xs-12 col-md-6">
 			<p class="rc no-margin-padding" style="float: right">1.800.444.3333  •  support@imagesoffreedom.com</p>
 		</div>
-	</div>	
+	</div>
+
 	<div class="row">
 		<div class="footer-email-container">
 			<div class="col-xs-12">
