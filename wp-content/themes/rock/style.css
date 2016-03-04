@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5, h6 {
   clear: both;
   font-family: 'Quantico', sans-serif;
   line-height: 1rem;
-  margin: 0; }
+  margin: 0 0 1rem 0; }
 
 .rc {
   font-family: 'Roboto Condensed', sans-serif;
@@ -284,7 +284,11 @@ h6 {
 
 p {
   margin-bottom: 1.5em;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+p b {
+  font-weight: 700; }
 
 dfn, cite, em, i {
   font-style: italic; }
@@ -458,55 +462,24 @@ input[type="submit"] {
 .button-flat-color-1:hover {
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
+  border-color: #1c517f;
   background-color: #1c517f; }
 
-/*Search Dropdown Buttons*/
-/* Dropdown Button */
-.dropbtn {
-  background-color: #fff;
-  color: #8e8e8e;
-  padding: .25rem .5rem;
-  margin-bottom: .25rem;
-  font-size: 1rem;
-  border-bottom: 4px solid #d6d6d6;
-  cursor: pointer;
-  width: 100%; }
+.button-flat-color-2 {
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #1c517f;
+  border: 2px solid #1c517f;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  border-radius: 4px;
+  font-size: 1rem; }
 
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
+.button-flat-color-2:hover {
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-  background-color: #eeeeee; }
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: block; }
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  width: 100%;
-  position: absolute;
-  background-color: #fff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  width: 100%;
-  color: black;
-  padding: .25rem;
-  text-decoration: none;
-  display: block; }
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #DAE5F0; }
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {
-  display: block; }
+  background-color: #184672; }
 
 input[type="text"],
 input[type="email"],
@@ -576,16 +549,14 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-  color: royalblue;
+  color: #487db4;
   font-family: 'Roboto Condensed', sans-serif; }
   a:visited {
-    color: purple; }
+    color: #777777; }
   a:hover, a:focus, a:active {
-    color: midnightblue; }
-  a:focus {
-    outline: thin dotted; }
-  a:hover, a:active {
-    outline: 0; }
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    color: #184672; }
 
 /*--------------------------------------------------------------
 ## Menus
@@ -922,116 +893,6 @@ object {
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important; } }
-.card {
-  position: relative;
-  display: block;
-  margin-bottom: 0;
-  background-color: #eeeeee;
-  border: none; }
-
-.card-block {
-  padding: .5rem; }
-
-.card-title {
-  margin-bottom: .5rem; }
-
-.card-subtitle {
-  margin-bottom: 0; }
-
-.card-text:last-child {
-  margin-bottom: 0; }
-
-.card-link:hover {
-  text-decoration: none; }
-.card-link + .card-link {
-  margin-left: .5rem; }
-
-.card-header {
-  padding: .5rem;
-  background-color: #fff;
-  border-bottom: none; }
-
-.card-footer {
-  padding: .5rem;
-  background-color: #fff;
-  border: none; }
-
-.card-img {
-  border-radius: 0.25rem; }
-
-.card-img-overlay {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1.25rem; }
-
-@media (min-width: 544px) {
-  .card-deck {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    margin-right: -.625rem;
-    margin-left: -.625rem; }
-    .card-deck .card {
-      -webkit-box-flex: 1;
-      -webkit-flex: 1 0 0;
-          -ms-flex: 1 0 0;
-              flex: 1 0 0;
-      margin-right: .625rem;
-      margin-left: .625rem; } }
-@media (min-width: 544px) {
-  .card-group {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row wrap;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap; }
-    .card-group .card {
-      -webkit-box-flex: 1;
-      -webkit-flex: 1 0 0;
-          -ms-flex: 1 0 0;
-              flex: 1 0 0; }
-      .card-group .card + .card {
-        margin-left: 0;
-        border-left: 0; }
-      .card-group .card:first-child {
-        border-bottom-right-radius: 0;
-        border-top-right-radius: 0; }
-        .card-group .card:first-child .card-img-top {
-          border-top-right-radius: 0; }
-        .card-group .card:first-child .card-img-bottom {
-          border-bottom-right-radius: 0; }
-      .card-group .card:last-child {
-        border-bottom-left-radius: 0;
-        border-top-left-radius: 0; }
-        .card-group .card:last-child .card-img-top {
-          border-top-left-radius: 0; }
-        .card-group .card:last-child .card-img-bottom {
-          border-bottom-left-radius: 0; }
-      .card-group .card:not(:first-child):not(:last-child) {
-        border-radius: 0; }
-        .card-group .card:not(:first-child):not(:last-child) .card-img-top,
-        .card-group .card:not(:first-child):not(:last-child) .card-img-bottom {
-          border-radius: 0; } }
-@media (min-width: 544px) {
-  .card-columns {
-    -webkit-column-count: 3;
-       -moz-column-count: 3;
-            column-count: 3;
-    -webkit-column-gap: 1.25rem;
-       -moz-column-gap: 1.25rem;
-            column-gap: 1.25rem; }
-    .card-columns .card {
-      display: inline-block;
-      width: 100%; } }
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -2292,6 +2153,29 @@ object {
   color: #474747;
   font-family: 'Roboto Condensed', sans-serif; }
 
+.search-card {
+  display: block;
+  width: 100%;
+  margin: .5rem 0;
+  padding: .5rem;
+  background-color: #eeeeee;
+  height: 250px;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+  .search-card .sc-image-bg {
+    background-size: cover;
+    background-repeat: none;
+    background-color: #fff;
+    background-position: center;
+    height: 150px; }
+  .search-card .container-dark-trans {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin: 0;
+    padding: .5rem 1rem; }
+  .search-card p {
+    font-size: .8rem; }
+
 /*Universal*/
 .no-margin-padding {
   margin: 0;
@@ -2315,6 +2199,11 @@ object {
   color: #fff;
   margin: 0 0 2rem 0;
   padding: .5rem; }
+
+.hr-white {
+  width: 100%;
+  background-color: #fff;
+  height: 2px; }
 
 /*Home Page*/
 .home-hero {
@@ -2365,6 +2254,18 @@ object {
   background-position: center;
   height: 220px;
   color: #fff; }
+
+/*Asset Detail*/
+.keyword-box {
+  background-color: #eeeeee;
+  width: 100%;
+  padding: 1rem;
+  margin: 1rem 0; }
+  .keyword-box a {
+    margin-right: .75rem; }
+
+.container-a {
+  margin: 1rem 0 2rem 0; }
 
 .site-footer {
   background-color: #1c517f;

@@ -37,37 +37,215 @@ get_header(); ?>
 			<div class="col-xs-12 col-md-3">
 				<div class="search-box">
 					<h4 class="uc ls1 text-color-2 text-center" style="margin-bottom: 1rem">Refine Search</h4>
-					<div class="dropdown">
-				 		<button onclick="searchDrop()" class="dropbtn">Dropdown</button>
-				 		<div id="myDropdown" class="dropdown-content">
-				    		<a href="#">Link 1</a>
-				    		<a href="#">Link 2</a>
-				    		<a href="#">Link 3</a>
-						</div>
-					</div>
+
+					add dropdowns
+				
 					<h5 class="uc text-color-2 ls1" style="margin: 1rem 0">Current Filters:</h5>
 					<button class="button-flat-color-1">Filter</button>
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-md-9">
+			<div class="col-xs-12 col-md-9">  <!-- start of search result cards -->
 				<div class="row">
 				
-					<div class="col-xs-12 col-sm-6 col-md-4 col-xl-3">
-					   
-					      <img class="card-img-top" data-src="..." alt="Card image cap">
-					      <div class="card-block">
-					        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additionis is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					      </div>
-					    
-				    </div>
-				  
-				    
-				</div>
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
+						</div> 
+					</div>
 
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
+						</div> 
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+						</div> 
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div> 
+					</div>
+
+				</div>  <!-- end of row -->
+
+				<div class="row">
+				
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+						</div> 
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+						</div> 
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+						</div> 
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div> 
+					</div>
+
+				</div>  <!-- end of row -->
+
+				<div class="row">
+				
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+						</div> 
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+						</div> 
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+						</div> 
+					</div>
+
+					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="search-card">
+							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
+					   			<div class="container-dark-trans">
+						   			<div class="row middle-xs around-xs">
+						   				<div class="col-xs-12">
+						   				icons
+						   				</div>
+						   			</div>
+					   			</div>
+					   		</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</div> 
+					</div>
+
+				</div>  <!-- end of row -->
 
 			</div>
 		</div>

@@ -1,20 +1,21 @@
 a {
-	color: $color__link;
+	color: $color-1;
 	font-family: 'Roboto Condensed', sans-serif;
 
 	&:visited {
-		color: $color__link-visited;
+		color: $gray-6;
 	}
 	&:hover,
 	&:focus,
 	&:active {
-		color: $color__link-hover;
+		transition: all .2s ease-in;
+		color: $color-3;
 	}
 	&:focus {
-		outline: thin dotted;
+		
 	}
 	&:hover,
 	&:active {
-		outline: 0;
+		
 	}
 }

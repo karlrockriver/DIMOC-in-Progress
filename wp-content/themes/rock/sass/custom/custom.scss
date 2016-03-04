@@ -29,6 +29,12 @@
 	padding: .5rem;
 }
 
+.hr-white {
+	width: 100%;
+	background-color: $white;
+	height: 2px;
+}
+
 /*Home Page*/
 .home-hero {
 	background-size: cover;
@@ -36,7 +42,7 @@
 	background-color: #fff;
 	background-position: center;
 	min-height: 450px;
-	.container-color-2-trans {
+		.container-color-2-trans {
 	}
 }
 
@@ -86,8 +92,17 @@
 	color: $white;
 }
 
+/*Asset Detail*/
+.keyword-box {
+	background-color: $gray-1;
+	width: 100%;
+	padding: 1rem;
+	margin: 1rem 0;
+	a {
+		margin-right: .75rem;
+	}
+}
 
-
-
-
-
+.container-a {
+	margin: 1rem 0 2rem 0;
+}

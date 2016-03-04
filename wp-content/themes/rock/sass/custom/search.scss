@@ -46,3 +46,30 @@
 	color: $gray-8;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+
+.search-card {
+	display: block;
+	width: 100%;
+	margin: .5rem 0;
+	padding: .5rem;
+	background-color: $gray-1;
+	height: 250px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	.sc-image-bg {
+		background-size: cover;
+		background-repeat: none;
+		background-color: #fff;
+		background-position: center;
+		height: 150px;
+	}
+	.container-dark-trans {
+		background-color: rgba(0,0,0,.7);
+		width: 100%;
+		margin: 0;
+		padding: .5rem 1rem;	
+	}
+	p {
+		font-size: .8rem;
+	}
+}
