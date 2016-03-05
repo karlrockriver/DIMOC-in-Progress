@@ -29,10 +29,23 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		
-		<nav id="site-navigation" class="main-navigation" role="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-3">
+					<img src="images/dimoc-logo.png">
+				</div>
+				<div class="col-xs-7">
+					<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rock' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->
+				</div>
+				<div class="col-xs-2">
+
+		
+				</div>
+			</div>
+		</div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

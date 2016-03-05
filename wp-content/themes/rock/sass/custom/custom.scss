@@ -104,5 +104,23 @@
 }
 
 .container-a {
+	display: block;
 	margin: 1rem 0 2rem 0;
+	a {
+		display: inline-block;
+	}
+}
+
+/*Sign In Page*/
+.sign-in-box {
+	padding: 0;
+	margin-bottom: 1rem;
+	@media screen and (min-width: 768px) {
+		padding: 1rem 2rem 1rem 1rem;
+		border-right: 2px solid $gray-2;
+	}
+}
+
+.sign-in-field {
+	width: 100%;
 }

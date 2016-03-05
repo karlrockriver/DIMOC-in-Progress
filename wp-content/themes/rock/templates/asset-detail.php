@@ -22,31 +22,31 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 col-md-5">
-				<img src="<?php the_field('detail_image'); ?>">	 <!-- replace this -->
-			<div class="keyword-box">
-				<h3 class="uc ls1 text-color-2">Keywords</h3>
-				<hr class="hr-white">
-				<hr class="hr-white">
-				<div class="container-a">
-					<a href="#">DoD</a><a href="#">Defense</a><a href="#">USAF</a><a href="#">Aircraft</a><a href="#">Airman</a><a href="#">Jet</a><a href="#">Flight-line</a><a href="#">Soldier</a>
-				</div>
+				<img src="<?php the_field('detail_image'); ?>">
+				<div class="keyword-box">
+					<h3 class="uc ls1 text-color-2">Keywords</h3>
+					<hr class="hr-white">
+					<hr class="hr-white">
+					<div class="container-a">
+						<a href="#">DoD</a><a href="#">Defense</a><a href="#">USAF</a><a href="#">Aircraft</a><a href="#">Airman</a><a href="#">Jet</a><a href="#">Plane</a><a href="#">Soldier</a><a href="#">Defense</a><a href="#">USAF</a><a href="#">Aircraft</a>
+					</div>
 
-				<h4 class="uc ls1 text-color-2">Indexed Terms:</h4>
-				<div class="container-a">
-					<a href="#">DoD</a><a href="#">Military</a><a href="#">Army</a><a href="#">Afghanistan</a><a href="#">Aircraft</a>
-				</div>
+					<h4 class="uc ls1 text-color-2">Indexed Terms:</h4>
+					<div class="container-a">
+						<a href="#">DoD</a><a href="#">Military</a><a href="#">Army</a><a href="#">Afghanistan</a><a href="#">Aircraft</a>
+					</div>
 
-				<h4 class="uc ls1 text-color-2">Related Terms:</h4>
-				<div class="container-a">
-					<a href="#">Plane</a><a href="#">Army</a><a href="#">DoD</a><a href="#">Flight Deck</a><a href="#">Carrier</a>
-				</div>
+					<h4 class="uc ls1 text-color-2">Related Terms:</h4>
+					<div class="container-a">
+						<a href="#">Plane</a><a href="#">Army</a><a href="#">DoD</a><a href="#">Flight Deck</a><a href="#">Carrier</a>
+					</div>
+				</div>  <!-- end of keyword box -->
 			</div>
-			</div>
 
-			<div class="col-xs-12 col-md-5">
+			<div class="col-xs-12 col-md-7">
 				<h1 class="rc"><b>Asset Description (truncated)</b></h1>
-				<div><p class="inline">Asset Title: </p>	<p class="inline"><b>15022-12-921498320</b></p></div>
-				<div><p class="inline">Asset ID: </p>	<p class="inline"><b>1928374</b></p></div>
+				<div><p class="inline">Asset Title: </p><p class="inline"><b>15022-12-921498320</b></p></div>
+				<div><p class="inline">Asset ID: </p><p class="inline"><b>1928374</b></p></div>
 				<br>
 				<div><p class="inline"><b>Narrative: </b></p><p class="inline">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
 				<br>
@@ -63,9 +63,9 @@ get_header(); ?>
 				<button class="button-flat-color-1 uc rc" style="margin: 1rem 0 1rem 1rem">Add to Cart</button>
 
 			</div>
-		</div>
-	</div>
-</div>
+		</div>  <!-- end of row -->
+	</div>  <!-- end of container -->
+</div>  <!-- end of area-white -->
 
 
 		</main><!-- #main -->
