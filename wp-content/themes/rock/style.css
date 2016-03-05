@@ -377,10 +377,11 @@ hr {
   height: 1px; }
 
 ul, ol {
-  margin: 0 0 1.5em 3em; }
+  margin: 0; }
 
 ul {
-  list-style: disc; }
+  list-style: disc;
+  font-weight: 300; }
 
 ol {
   list-style: decimal; }
@@ -2340,7 +2341,7 @@ object {
 .sign-in-box {
   padding: 0;
   margin-bottom: 1rem; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 554px) {
     .sign-in-box {
       padding: 1rem 2rem 1rem 1rem;
       border-right: 2px solid #d6d6d6; } }

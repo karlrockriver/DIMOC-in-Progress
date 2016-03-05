@@ -34,8 +34,8 @@ get_header(); ?>
 						</div>
 
 						<div class="col-xs-12 col-sm-6 col-lg-4" style="padding: 1rem">
-							<h1 class="text-color-2"><?php the_field('register_header'); ?></h1>
-							<?php the_field('register_text'); ?>
+							<h1 class="text-color-2"><?php the_field('sign_up_header'); ?></h1>
+							<?php the_field('sign_up_text'); ?>
 							<button class="button-flat-full-color-1">Register</button>
 						</div>
 					</div>
