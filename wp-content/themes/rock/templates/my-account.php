@@ -17,18 +17,31 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<?php
-			while ( have_posts() ) : the_post();
+		
+<div class="area-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-md-3">
+				<div class="sign-in-box">
+					<h1 class="text-color-2"><?php the_field('account1_header'); ?></h1>
+					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Status</button></a>
+					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Download History</button></a>
+					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Lightboxes</button></a>
+					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Edit Profile</button></a>
+				</div>
+			</div>
 
-				get_template_part( 'template-parts/content', 'page' );
+			<div class="col-xs-12 col-md-9">
+				<h1 class="text-color-2" style="margin-top: 1rem"><?php the_field('account1_account_header'); ?></h1>
+				<p><?php the_field('account1_account_text'); ?></p>
+				<h1 class="text-color-2"><?php the_field('account1_download_header'); ?></h1>
+				<?php the_field('account1_download_text'); ?>
+			</div>
+		</div>
+	</div>
+</div>
 
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
 
-			endwhile; // End of the loop.
-			?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
