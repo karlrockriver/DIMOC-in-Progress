@@ -431,7 +431,8 @@ input[type="submit"] {
 .button-flat-gray:hover {
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-  background-color: #bebebe; }
+  background-color: #bebebe;
+  border: 2px solid #bebebe; }
 
 .button-ghost-gray {
   padding: .5rem 1rem;
@@ -517,6 +518,23 @@ input[type="submit"] {
   transition: all .2s ease-in;
   border-color: #184672;
   background-color: #184672; }
+
+.button-flat-search {
+  padding: .25rem;
+  margin: 0 .25rem .5rem 0;
+  background-color: #487db4;
+  border: 2px solid #487db4;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  border-radius: 4px;
+  font-size: 1rem; }
+
+.button-flat-search:hover {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  border-color: #1c517f;
+  background-color: #1c517f; }
 
 input[type="text"],
 input[type="email"],
@@ -2341,6 +2359,15 @@ and also iPads specifically.
   .search-card p {
     font-size: .8rem; }
 
+input[type=date], .search-drop {
+  width: 100%;
+  border: none;
+  border-radius: 0;
+  border-top-left-radius: 0;
+  background-color: #fff;
+  margin-bottom: .25rem;
+  padding: .25rem .5rem; }
+
 /*Universal*/
 .no-margin-padding {
   margin: 0;
@@ -2488,6 +2515,19 @@ and also iPads specifically.
   margin: 0;
   text-align: center;
   color: #fff; }
+
+/*Generic w/Sidebar*/
+.hero-thin {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 400px; }
+
+.single-post-container .sidebar {
+  background-color: #eeeeee;
+  padding: 1rem; }
 
 .site-footer {
   background-color: #1c517f;

@@ -37,11 +37,42 @@ get_header(); ?>
 			<div class="col-xs-12 col-md-3">
 				<div class="search-box">
 					<h4 class="uc ls1 text-color-2 text-center" style="margin-bottom: 1rem">Refine Search</h4>
-
-					add dropdowns
 				
+				<!-- Start of dropdown results -->
+				<select name="branch" class="search-drop">
+				    <option value="Branch of Military">Branch of Military</option>
+				    <option value="Army">Armu</option>
+				    <option value="Navy">Navy</option>
+				    <option value="Air Force">Air Force</option>
+				</select>
+				<select name="equipment" class="search-drop">
+				    <option value="Equipment">Equipment</option>
+				   <option value="Army">Armu</option>
+				    <option value="Navy">Navy</option>
+				    <option value="Air Force">Air Force</option>
+				</select>
+				<select name="portrait" class="search-drop">
+				    <option value="Portrait">Portrait</option>
+				   <option value="Army">Armu</option>
+				    <option value="Navy">Navy</option>
+				    <option value="Air Force">Air Force</option>
+				</select>
+				<select name="locations" class="search-drop">
+				    <option value="Locations">Locations</option>
+				   <option value="Army">Armu</option>
+				    <option value="Navy">Navy</option>
+				    <option value="Air Force">Air Force</option>
+				</select>
+				<!-- end of dropdown results -->
+
+					<input type='date'>
+					<input type='date'>
 					<h5 class="uc text-color-2 ls1" style="margin: 1rem 0">Current Filters:</h5>
-					<button class="button-flat-color-1">Filter</button>
+					<button class="button-flat-search">Filter<icon> icon</icon></button>
+					<button class="button-flat-search">Filter<icon> icon</icon></button>
+					<button class="button-flat-search">Filter<icon> icon</icon></button>
+					<button class="button-flat-search">Filter<icon> icon</icon></button>
+					<button class="button-flat-search">Filter<icon> icon</icon></button>
 				</div>
 			</div>
 

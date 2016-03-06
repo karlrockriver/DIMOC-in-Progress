@@ -20,6 +20,7 @@
 <!-- Google Fonts -->
 <link href='https://fonts.googleapis.com/css?family=Roboto:300, 700|Roboto+Condensed:400,300|Quantico:700' rel='stylesheet' type='text/css'>
 
+
 <?php wp_head(); ?>
 </head>
 

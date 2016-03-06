@@ -39,7 +39,7 @@
 .home-hero {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: #fff;
+	background-color: $white;
 	background-position: center;
 	min-height: 450px;
 		.container-color-2-trans {
@@ -175,4 +175,21 @@
 	margin: 0;
 	text-align: center;
 	color: $white;
+}
+
+/*Generic w/Sidebar*/
+.hero-thin {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: $white;
+	background-position: center;
+	background-attachment: fixed;
+	min-height: 400px;
+}
+
+.single-post-container {
+	.sidebar {
+		background-color: $gray-1;
+		padding: 1rem;
+	}
 }
