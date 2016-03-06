@@ -38,7 +38,7 @@
 /*Home Page*/
 .home-hero {
 	background-size: cover;
-	background-repeat: none;
+	background-repeat: no-repeat;
 	background-color: #fff;
 	background-position: center;
 	min-height: 450px;
@@ -60,8 +60,8 @@
 	position: relative;
 	margin-bottom: 30px;
 	background-size: cover;
-	background-repeat: none;
-	background-color: #fff;
+	background-repeat: no-repeat;
+	background-color: $white;
 	background-position: center;
 	height: 220px;
 }
@@ -86,7 +86,7 @@
 	padding: 1rem;
 	background-size: cover;
 	background-repeat: none;
-	background-color: #fff;
+	background-color: $white;
 	background-position: center;
 	height: 220px;
 	color: $white;
@@ -123,4 +123,56 @@
 
 .sign-in-field {
 	width: 100%;
+}
+
+/*Blog*/
+.blog-categories {
+	text-align: center;
+	a {
+	display: inline;
+	}
+	br {
+		display: none;
+	}
+}
+
+.blog-card {
+	margin: 1rem 0;
+	width: 100%;
+	background-color: $gray-1;
+	p {
+		font-size: .9rem;
+	}
+}
+
+.blog-card-bg {
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: $white;
+	background-position: center;
+	min-height: 200px;
+}
+
+.blog-card-bottom {
+	padding: 1rem;
+	a {
+		text-decoration: none;
+		margin: 0;
+		color: $color-1;
+	}
+	a:hover {
+		transiton: all .2s ease-in;
+		color: $color-2;
+	}
+}
+
+/*Single Post*/
+.post-header-gray-8 {
+	width: 100%;
+	background-color: $gray-8;
+	padding: 1rem;
+	margin: 0;
+	text-align: center;
+	color: $white;
 }

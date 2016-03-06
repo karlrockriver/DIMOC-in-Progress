@@ -12,24 +12,48 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+
+<div class="area-white">
+	<div class="container">
 		<?php
-		while ( have_posts() ) : the_post();
+		while ( have_posts() ) : the_post(); ?>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<?php the_post_thumbnail('full'); ?>
+					<div class="post-header-gray-8"><h1 class="text-center no-margin-padding"><?php the_title(); ?></h1></div>
+				</div>
+			</div>
 
-			get_template_part( 'template-parts/content', get_post_format() );
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<p>Written by <b><?php the_author(); ?></b> on <b><?php echo the_time('l, F jS, Y'); ?></b></p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<?php the_content(); ?>
+				</div>
+			</div>
 
-			the_post_navigation();
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+		<div class="row">
+			<div class="col-xs-12">
+			<?php the_post_navigation(); ?>
+			</div>
+		</div>
 
-		endwhile; // End of the loop.
+
+		<?php endwhile; // End of the loop.
 		?>
+
+		</div>
+	</div>
+</div>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
 <?php
-get_sidebar();
 get_footer();

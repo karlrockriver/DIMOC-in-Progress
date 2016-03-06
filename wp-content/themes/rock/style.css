@@ -2373,7 +2373,7 @@ and also iPads specifically.
 /*Home Page*/
 .home-hero {
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-color: #fff;
   background-position: center;
   min-height: 450px; }
@@ -2391,7 +2391,7 @@ and also iPads specifically.
   position: relative;
   margin-bottom: 30px;
   background-size: cover;
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-color: #fff;
   background-position: center;
   height: 220px; }
@@ -2446,6 +2446,48 @@ and also iPads specifically.
 
 .sign-in-field {
   width: 100%; }
+
+/*Blog*/
+.blog-categories {
+  text-align: center; }
+  .blog-categories a {
+    display: inline; }
+  .blog-categories br {
+    display: none; }
+
+.blog-card {
+  margin: 1rem 0;
+  width: 100%;
+  background-color: #eeeeee; }
+  .blog-card p {
+    font-size: .9rem; }
+
+.blog-card-bg {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-position: center;
+  min-height: 200px; }
+
+.blog-card-bottom {
+  padding: 1rem; }
+  .blog-card-bottom a {
+    text-decoration: none;
+    margin: 0;
+    color: #487db4; }
+  .blog-card-bottom a:hover {
+    transiton: all .2s ease-in;
+    color: #1c517f; }
+
+/*Single Post*/
+.post-header-gray-8 {
+  width: 100%;
+  background-color: #474747;
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+  color: #fff; }
 
 .site-footer {
   background-color: #1c517f;

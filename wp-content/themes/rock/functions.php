@@ -121,6 +121,14 @@ function rock_widgets_init() {
 }
 add_action( 'widgets_init', 'rock_widgets_init' );
 
+
+// Replaces the excerpt "more" text by a link
+function new_excerpt_more($more) {
+       global $post;
+	return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Read more...</a>';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
 /**
  * Enqueue scripts and styles.
  */
