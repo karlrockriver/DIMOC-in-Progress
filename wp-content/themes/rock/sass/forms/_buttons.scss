@@ -18,6 +18,10 @@ input[type="submit"] {
 	margin: 0;
 	border-radius: .5rem;
 }
+.button-search-submit:hover {
+	transition: all .2s ease-in;
+	color: $gray-3;
+}
 
 .button-flat-gray {
 	padding: .5rem 1rem;
@@ -136,4 +140,11 @@ input[type="submit"] {
 	transition: all .2s ease-in;
 	border-color: $color-2;
 	background-color: $color-2;
+}
+
+.shiftnav-menu-image {
+	img {
+	display: block;
+	margin: 0 auto;
+	}
 }

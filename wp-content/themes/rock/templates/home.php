@@ -19,7 +19,7 @@ get_header(); ?>
 
 
 <div class="home-hero" style="background-image: url(<?php the_field('home_hero_image'); ?>)">
-	<div class="container-fluid">
+	<div class="container-fluid" style="padding: 0">
 		<div class="row">
 			<div class="col-xs-12 col-md-8 col-md-offset-2">
 				<div class="search-container">
@@ -37,9 +37,12 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="hero-container-color-2-trans ">
-			<div class="row middle-xs">
-				<div class="col-xs-12">
-					<h3 class="rc text-white no-margin-padding"><?php the_field(home_hero_header); ?></h3>
+			<div class="container">
+				<div class="row middle-xs">
+					<div class="col-xs-12">
+						<h3 class="rc text-white no-margin-padding"><?php the_field(home_hero_header); ?></h3>
+						<p class="rc text-white no-margin-padding"><?php the_field('home_hero_subheader'); ?></p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -134,7 +137,13 @@ get_header(); ?>
 						<ul class="browse-list">
 							<a href="#"><li class="browse-list-item rc">items</li></a>
 						</ul>
-					</hr>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+				<div class="browse-header text-center uc text-color-4 ls1">header</div>
+					<hr>
+						<ul class="browse-list">
+							<li class="browse-list-item rc"></li>
+						</ul>	
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 				<div class="browse-header text-center uc text-color-4 ls1">header</div>
@@ -142,7 +151,6 @@ get_header(); ?>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>
-					</hr>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 				<div class="browse-header text-center uc text-color-4 ls1">header</div>
@@ -150,7 +158,6 @@ get_header(); ?>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>
-					</hr>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 				<div class="browse-header text-center uc text-color-4 ls1">header</div>
@@ -158,25 +165,51 @@ get_header(); ?>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>
-					</hr>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<div class="browse-header text-center uc text-color-4 ls1">header</div>
-					<hr>
-						<ul class="browse-list">
-							<li class="browse-list-item rc"></li>
-						</ul>
-					</hr>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
 				<a href="#"><div class="browse-bg-image text-center" style="display: flex; align-items: center; background-image:linear-gradient(to bottom, rgba(28,81,127, .7) 0%, rgba(75,125,180,0.8) 100%), url(<?php the_field('home_hero_image'); ?>)">
 					<h4 class="uc ls1">Browse all collections</h4>
 				</div></a>
 			</div>
-		</div>
+		</div>  <!-- end of row -->
+	</div>  <!-- end of container -->
+</div>  <!-- end of area-warm -->
 
+
+<div class="area-color-2">
+	<div class="container">
+		<div class="row middle-xs">
+			<div class="col-xs-12 col-md-3">
+				<h1 class="text-white text-center"><?php the_field('home_video_header'); ?></h1>
+				<p class="text-gray-3"><?php the_field('home_video_text'); ?></p>
+			</div>
+			<div class="col-xs-12 col-md-9">
+				<div class="container-instagram">
+					add video here
+				</div>
+			</div>
+		</div>
 	</div>
 </div>
+
+<!-- start of instagram feed -->
+<div class="area-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="container-instagram">
+					<h4 class="uc ls1 text-color-1"><?php the_field('home_instagram_header'); ?></h4>
+					<hr class="hr-white">
+					<hr class="hr-white">
+					<?php echo do_shortcode('[instagram-feed]'); ?>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- end of instagram feed -->
+
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

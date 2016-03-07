@@ -350,6 +350,15 @@ b {
 .text-color-4 {
   color: #ca0008; }
 
+.text-gray-1 {
+  color: #eeeeee; }
+
+.text-gray-2 {
+  color: #d6d6d6; }
+
+.text-gray-3 {
+  color: #bebebe; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -428,6 +437,11 @@ input[type="submit"] {
   padding: 1rem;
   margin: 0;
   border-radius: .5rem; }
+
+.button-search-submit:hover {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  color: #bebebe; }
 
 .button-flat-gray {
   padding: .5rem 1rem;
@@ -547,6 +561,10 @@ input[type="submit"] {
   transition: all .2s ease-in;
   border-color: #1c517f;
   background-color: #1c517f; }
+
+.shiftnav-menu-image img {
+  display: block;
+  margin: 0 auto; }
 
 input[type="text"],
 input[type="email"],
@@ -3150,12 +3168,12 @@ and also iPads specifically.
       display: inline; } }
 
 .search-container {
-  width: 100%;
   background-color: #fff;
   position: relative;
   top: 6rem;
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.1);
   padding: 0 1rem;
+  margin: 0 1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3186,9 +3204,12 @@ and also iPads specifically.
   outline: 0; }
 
 .type-selector {
-  display: block;
+  display: none;
   width: 30%;
   color: #55595c; }
+  @media screen and (min-width: 554px) {
+    .type-selector {
+      display: block; } }
 
 .search-box {
   background-color: #DAE5F0;
@@ -3251,6 +3272,16 @@ input[type=date], .search-drop {
   background-color: #fdfdfd;
   padding: 4rem 0; }
 
+.area-color-1 {
+  width: 100%;
+  background-color: #487db4;
+  padding: 4rem 0; }
+
+.area-color-2 {
+  width: 100%;
+  background-color: #1c517f;
+  padding: 4rem 0; }
+
 .container-header-color-4 {
   background-color: #ca0008;
   color: #fff;
@@ -3270,7 +3301,7 @@ input[type=date], .search-drop {
   background-repeat: no-repeat;
   background-color: #fff;
   background-position: center;
-  min-height: 450px;
+  min-height: 500px;
   padding: 0;
   margin: 0; }
 
@@ -3332,6 +3363,11 @@ input[type=date], .search-drop {
   background-position: center;
   height: 220px;
   color: #fff; }
+
+.container-instagram {
+  width: 100%;
+  padding: 1rem;
+  background-color: #eeeeee; }
 
 /*Asset Detail*/
 .keyword-box {

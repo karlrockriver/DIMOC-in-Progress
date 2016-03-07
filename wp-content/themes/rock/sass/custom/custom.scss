@@ -8,8 +8,6 @@
 .inline {
 	display: inline;
 }
-.inline-md {
-}
 
 .area-white {
 	width: 100%;
@@ -20,6 +18,18 @@
 .area-warm-1 {
 	width: 100%;
 	background-color: $warm-1;
+	padding: 4rem 0;
+}
+
+.area-color-1 {
+	width: 100%;
+	background-color: $color-1;
+	padding: 4rem 0;
+}
+
+.area-color-2 {
+	width: 100%;
+	background-color: $color-2;
 	padding: 4rem 0;
 }
 
@@ -44,7 +54,7 @@
 	background-repeat: no-repeat;
 	background-color: $white;
 	background-position: center;
-	min-height: 450px;
+	min-height: 500px;
 	padding: 0;
 	margin: 0;
 }
@@ -114,6 +124,12 @@
 	background-position: center;
 	height: 220px;
 	color: $white;
+}
+
+.container-instagram {
+	width: 100%;
+	padding: 1rem;
+	background-color: $gray-1;
 }
 
 /*Asset Detail*/
