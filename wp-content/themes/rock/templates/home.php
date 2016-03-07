@@ -19,44 +19,40 @@ get_header(); ?>
 
 
 <div class="home-hero" style="background-image: url(<?php the_field('home_hero_image'); ?>)">
-
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-xs-12 col-md-8 col-md-offset-2">
-			<div class="search-container">
-				<div class="search-input">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
+				<div class="search-container">
 					<input type="search" placeholder="Search here">
-					<div class="type-selector">
-						<label>
-							<input name="photos" checked="checked" type="checkbox">Photos
-						</label>
-						<label>
-							<input name="videos" checked="checked" type="checkbox">Videos
-						</label>
-					</div>
+						<div class="type-selector">
+							<label style="display: inline-block">
+								<input name="photos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin-left: .5rem">Photos</p>
+							</label>
+							<label style="display: inline-block">
+								<input name="videos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin-left: .5rem">Videos</p>
+							</label>
+						</div>
+					<button class="button-search-submit" style="float: right">icon</button>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-
-	<!-- <div class="container-color-2-trans">
-		<div class="container">
-			<div class="row">
+		<div class="hero-container-color-2-trans ">
+			<div class="row middle-xs">
 				<div class="col-xs-12">
-					<h3 class="rc text-white"><?php the_field(home_hero_header); ?></h3>
+					<h3 class="rc text-white no-margin-padding"><?php the_field(home_hero_header); ?></h3>
 				</div>
 			</div>
 		</div>
-	</div> -->
-</div>
+	</div>  <!-- end of container-fluid -->
+</div>  <!--end of home-hero -->
+
 
 <div class="area-warm-1">
 	<div class="container">
-		<div class="row"> <!-- header for collections -->
+		<div class="row middle-xs"> <!-- header for collections -->
 			<div class="col-xs-12">
 				<div class="container-header-color-4">
-					<h5 class="uc rc ls1"><?php the_field('home_collection-1-header'); ?></h5>
+					<h5 class="uc rc ls1 no-margin-padding"><?php the_field('home_collection-1-header'); ?></h5>
 				</div>
 			</div>
 		</div>
@@ -67,7 +63,7 @@ get_header(); ?>
 				<a href="#">
 					<div class="home-thumbnail" style="background-image: url(<?php the_field('home_hero_image'); ?>)">
 						<div class="thumbnail-container">
-							<h4 class="rc">Category Name</h4>
+							<h4 class="rc no-margin-padding">Category Name</h4>
 						</div>
 					</div>
 				</a>
@@ -76,7 +72,7 @@ get_header(); ?>
 				<a href="#">
 					<div class="home-thumbnail" style="background-image: url(<?php the_field('home_hero_image'); ?>)">
 						<div class="thumbnail-container">
-							<h4 class="rc">Category Name</h4>
+							<h4 class="rc no-margin-padding">Category Name</h4>
 						</div>
 					</div>
 				</a>
@@ -85,7 +81,7 @@ get_header(); ?>
 				<a href="#">
 					<div class="home-thumbnail" style="background-image: url(<?php the_field('home_hero_image'); ?>)">
 						<div class="thumbnail-container">
-							<h4 class="rc">Category Name</h4>
+							<h4 class="rc no-margin-padding">Category Name</h4>
 						</div>
 					</div>
 				</a>
@@ -97,7 +93,7 @@ get_header(); ?>
 				<a href="#">
 					<div class="home-thumbnail" style="background-image: url(<?php the_field('home_hero_image'); ?>)">
 						<div class="thumbnail-container">
-							<h4 class="rc">Category Name</h4>
+							<h4 class="rc no-margin-padding">Category Name</h4>
 						</div>
 					</div>
 				</a>
@@ -106,7 +102,7 @@ get_header(); ?>
 				<a href="#">
 					<div class="home-thumbnail" style="background-image: url(<?php the_field('home_hero_image'); ?>)">
 						<div class="thumbnail-container">
-							<h4 class="rc">Category Name</h4>
+							<h4 class="rc no-margin-padding">Category Name</h4>
 						</div>
 					</div>
 				</a>
@@ -115,7 +111,7 @@ get_header(); ?>
 				<a href="#">
 					<div class="home-thumbnail" style="background-image: url(<?php the_field('home_hero_image'); ?>)">
 						<div class="thumbnail-container">
-							<h4 class="rc text-center">Category Name</h4>
+							<h4 class="rc no-margin-padding">Category Name</h4>
 						</div>
 					</div>
 				</a>
@@ -136,7 +132,7 @@ get_header(); ?>
 				<div class="browse-header text-center uc text-color-4 ls1">header</div>
 					<hr>
 						<ul class="browse-list">
-							<li class="browse-list-item rc">items</li>
+							<a href="#"><li class="browse-list-item rc">items</li></a>
 						</ul>
 					</hr>
 			</div>

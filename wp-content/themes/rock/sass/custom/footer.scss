@@ -12,11 +12,31 @@
 	padding: 1rem;
 }
 
+.float-right-lg {
+	float: left;
+	@media screen and (min-width: 554px) {
+		float: right;
+	}
+}
+
 .footer-nav .menu {
 	list-style: none;
 	padding: 0;
 	margin: 0;
 	li {
+		display: inline;
 		margin-right: .5rem;
+	}
+	a {
+		color: $white;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		font-family: 'Quantico', sans-serif;
+		text-decoration: none;
+		font-size: .9rem;
+	}
+	a:hover {
+		transition: all .2s ease-in;
+		color: $gray-3;
 	}
 }

@@ -1,36 +1,47 @@
+.hidden-xs-inline {
+	display: none;
+	@media screen and (min-width: 554px) {
+		display: inline;
+	}
+}
+
 .search-container {
+	width: 100%;
 	background-color: $white;
 	position: relative;
 	top: 6rem;
 	box-shadow: 1px 0px 7px rgba(000,000,000,0.1);
-	padding: 0;
+	padding: 0 1rem;
 	display: flex;
 	align-items: center;
-	font-size: 1.2rem;
-		input[type=search] {
+	border-radius: .5rem;
+	input[type=search] {
+		color: $gray-7;
+		width: 50%;
 		border: none;
-		padding: 1rem;
+		padding: 1rem 0;
 		margin: 0;
-		width: 100%;
+		width: 60%;
 		font-size: 1.2rem;
+	}
+	input[type=search]:focus {
+		outline: none;
 	}
 	input[type=checkbox] {
 		margin-left: .5rem;
+		display: none;
+		@media screen and (min-width: 554px) {
+			display: inline-block;	
+		}
 	}
 }
-
-.search-input {
-	width: 80%;
-	float: left;
-	display: inline;
-	text-overflow: ellipsis;
-	font-size: 1.2rem;
+.search-container:focus {
+	outline: 0;
 }
 
 .type-selector {
-	position: absolute;
-	top: 1rem;
-	right: 8rem;
+	display: block;
+	width: 30%;
 	color: $gray;
 }
 
