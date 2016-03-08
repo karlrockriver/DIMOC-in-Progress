@@ -3209,7 +3209,6 @@ and also iPads specifically.
   background-color: #fff;
   position: relative;
   top: 6rem;
-  box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.1);
   padding: 0 1rem;
   margin: 0 1rem;
   display: -webkit-box;
@@ -3270,6 +3269,8 @@ and also iPads specifically.
   overflow: hidden;
   text-overflow: ellipsis; }
   .search-card .sc-image-bg {
+    display: block;
+    position: relative;
     background-size: cover;
     background-repeat: none;
     background-color: #fff;
@@ -3277,6 +3278,8 @@ and also iPads specifically.
     height: 150px; }
   .search-card .container-dark-trans {
     background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
     width: 100%;
     margin: 0;
     padding: .5rem 1rem; }

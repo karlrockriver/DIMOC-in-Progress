@@ -9,7 +9,6 @@
 	background-color: $white;
 	position: relative;
 	top: 6rem;
-	box-shadow: 1px 0px 7px rgba(000,000,000,0.1);
 	padding: 0 1rem;
 	margin: 0 1rem;
 	display: flex;
@@ -71,14 +70,18 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 	.sc-image-bg {
+		display: block;
+		position: relative;
 		background-size: cover;
 		background-repeat: none;
-		background-color: #fff;
+		background-color: $white;
 		background-position: center;
 		height: 150px;
 	}
 	.container-dark-trans {
 		background-color: rgba(0,0,0,.7);
+		position: absolute;
+		bottom: 0;
 		width: 100%;
 		margin: 0;
 		padding: .5rem 1rem;	

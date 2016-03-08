@@ -200,6 +200,7 @@ get_header(); ?>
 			<div class="col-xs-12">
 				<div class="lightbox-modal">
 					<h2 class="text-color-3 text-center">Add to Lightbox</h2>
+					<hr class="hr-white">
 					<p class="text-center no-margin-padding">Your Lightboxes:</p>
 					
 					<select name="lightbox" class="search-drop" style="margin-top: .5rem">

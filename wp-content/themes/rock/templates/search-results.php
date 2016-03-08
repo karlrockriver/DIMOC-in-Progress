@@ -91,7 +91,6 @@ get_header(); ?>
 					   			</div>
 					   		</div>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
 						</div> 
 					</div>
 
