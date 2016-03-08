@@ -350,6 +350,9 @@ b {
 .text-color-4 {
   color: #ca0008; }
 
+.text-color-4-darker {
+  color: #7e0005; }
+
 .text-gray-1 {
   color: #eeeeee; }
 
@@ -525,7 +528,8 @@ input[type="submit"] {
 .button-flat-color-2:hover {
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-  background-color: #184672; }
+  background-color: #184672;
+  border-color: #184672; }
 
 .button-flat-full-color-2 {
   width: 100%;
@@ -544,6 +548,40 @@ input[type="submit"] {
   transition: all .2s ease-in;
   border-color: #184672;
   background-color: #184672; }
+
+.button-flat-color-3 {
+  padding: .25rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #184672;
+  border: 2px solid #184672;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  border-radius: 4px;
+  font-size: 1rem; }
+
+.button-flat-color-3:hover {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: #487db4;
+  border-color: #487db4; }
+
+.button-flat-color-4 {
+  padding: .25rem 1.5rem;
+  margin-bottom: 1rem;
+  background-color: #ca0008;
+  border: 2px solid #ca0008;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  border-radius: 0;
+  font-size: 1rem; }
+
+.button-flat-color-4:hover {
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  background-color: #7e0005;
+  border-color: #7e0005; }
 
 .button-flat-search {
   padding: .25rem;
@@ -3292,6 +3330,30 @@ input[type=date], .search-drop {
   width: 100%;
   background-color: #fff;
   height: 2px; }
+
+.lightbox-modal {
+  max-width: 400px;
+  background-color: #eeeeee;
+  margin: 2rem auto;
+  padding: 2rem;
+  z-index: 999;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); }
+  .lightbox-modal .search-drop {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    min-width: 215px;
+    border-radius: 0; }
+  .lightbox-modal .button-flat-color-4 {
+    display: block;
+    margin: 1rem auto 2rem auto; }
+  .lightbox-modal input[type="text"] {
+    display: block;
+    margin: .5rem auto;
+    max-width: 300px;
+    min-width: 215px;
+    border: none;
+    border-radius: 0; }
 
 /*Home Page*/
 .home-hero {

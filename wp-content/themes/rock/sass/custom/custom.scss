@@ -1,5 +1,4 @@
 /*Universal*/
-
 .no-margin-padding {
 	margin: 0;
 	padding: 0;
@@ -44,6 +43,34 @@
 	width: 100%;
 	background-color: $white;
 	height: 2px;
+}
+
+.lightbox-modal {
+	max-width: 400px;
+	background-color: $gray-1;
+	margin: 2rem auto;
+	padding: 2rem;
+	z-index: 999;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	.search-drop {
+		display: block;
+		margin: 0 auto;
+		max-width: 300px;
+		min-width: 215px;
+		border-radius: 0;
+	}
+	.button-flat-color-4 {
+		display: block;
+		margin: 1rem auto 2rem auto;
+	}
+	input[type="text"] {
+		display: block;
+		margin: .5rem auto;
+		max-width: 300px;
+		min-width: 215px;
+		border: none;
+		border-radius: 0;
+	}
 }
 
 /*Home Page*/

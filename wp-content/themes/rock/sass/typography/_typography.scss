@@ -39,6 +39,9 @@ b {
 .text-color-4 {
 	color: $color-4;
 }
+.text-color-4-darker {
+	color: darken($color-4, 15%);
+}
 
 .text-gray-1 {
 	color: $gray-1;

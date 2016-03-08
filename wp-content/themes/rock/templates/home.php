@@ -192,6 +192,38 @@ get_header(); ?>
 	</div>
 </div>
 
+
+
+<div class="area-warm">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="lightbox-modal">
+					<h2 class="text-color-3 text-center">Add to Lightbox</h2>
+					<p class="text-center no-margin-padding">Your Lightboxes:</p>
+					
+					<select name="lightbox" class="search-drop" style="margin-top: .5rem">
+				    <option value="Lightbox Name">Lightbox Name</option>
+				    <option value="Option 1">Option 1</option>
+				    <option value="Option 2">Option 2</option>
+				    <option value="Option 3">Option 3</option>
+					</select>
+
+					<button class="button-flat-color-4 uc">Save</button>
+
+					<p class="text-center no-margin-padding">Or Create New Lightbox:</p>
+					<input type="text">
+					
+					<button class="button-flat-color-4 uc">Create</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
 <!-- start of instagram feed -->
 <div class="area-white">
 	<div class="container">
