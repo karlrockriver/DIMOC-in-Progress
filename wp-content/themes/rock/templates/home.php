@@ -22,17 +22,27 @@ get_header(); ?>
 	<div class="container-fluid" style="padding: 0">
 		<div class="row">
 			<div class="col-xs-12 col-md-8 col-md-offset-2">
-				<div class="search-container">
-					<input type="search" placeholder="Search here">
-						<div class="type-selector">
-							<label style="display: inline-block">
-								<input name="photos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin-left: .5rem">Photos</p>
-							</label>
-							<label style="display: inline-block">
-								<input name="videos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin-left: .5rem">Videos</p>
-							</label>
-						</div>
-					<button class="button-search-submit" style="float: right">icon</button>
+				<div class="search-container-dark-trans">
+
+					<div class="row">
+					<div class="col-xs-12 col-sm-8">
+
+					<div class="search-container">
+						<input type="search" placeholder="Search here">
+							<div class="type-selector">
+								<label style="display: inline-block">
+									<input name="photos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin-left: .5rem">Photos</p>
+								</label>
+								<label style="display: inline-block">
+									<input name="videos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin-left: .5rem">Videos</p>
+								</label>
+							</div>
+					</div>
+					</div>
+					<div class="col-xs-12 col-sm-4">
+					<button class="button-search-submit">icon</button>
+					</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -55,7 +65,7 @@ get_header(); ?>
 		<div class="row middle-xs"> <!-- header for collections -->
 			<div class="col-xs-12">
 				<div class="container-header-color-4">
-					<h5 class="uc rc ls1 no-margin-padding"><?php the_field('home_collection-1-header'); ?></h5>
+					<h4 class="ls1 no-margin-padding"><?php the_field('home_collection-1-header'); ?></h4>
 				</div>
 			</div>
 		</div>
@@ -125,7 +135,7 @@ get_header(); ?>
 		<!-- Header for Browse Collections -->
 		<div class="row middle-xs">
 			<div class="col-xs-12 text-center">
-				<h5 class="uc text-color-3" style="margin: 2rem 0"><?php the_field('home_browse_header'); ?></h5>
+				<h4 class="uc ls1 text-color-3" style="margin: 2rem 0"><?php the_field('home_browse_header'); ?></h4>
 			</div>
 		</div>
 
@@ -198,7 +208,7 @@ get_header(); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<div class="lightbox-modal">
+				<div class="lightbox-modal on-gray">
 					<h2 class="text-color-3 text-center">Add to Lightbox</h2>
 					<hr class="hr-white">
 					<hr class="hr-white">
@@ -220,6 +230,21 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
+
+
+<div class="row">
+	<col-xs-12>
+			<button class="button-flat-color-1">test</button>
+			<button class="button-flat-color-2">test</button>
+			<button class="button-flat-color-3">test</button>
+			<button class="button-flat-color-4">test</button>
+			<button class="button-flat-gray">test</button>
+			<button class="button-flat-full-color-1">test</button>
+			<button class="button-flat-full-color-2">test</button>
+	</col-xs-12>
+</div>
+
+
 	</div>
 </div>
 

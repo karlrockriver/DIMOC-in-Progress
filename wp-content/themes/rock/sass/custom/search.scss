@@ -5,13 +5,18 @@
 	}
 }
 
-.search-container {
-	background-color: $white;
+.search-container-dark-trans {
+	background-color: rgba(0,0,0,.6);
+	padding: 1rem;
 	position: relative;
 	top: 6rem;
+}
+
+.search-container {
+	background-color: $white;
 	padding: 0 1rem;
-	margin: 0 1rem;
-	display: flex;
+	margin: 0;
+	display: inline-flex;
 	align-items: center;
 	border-radius: .5rem;
 	input[type=search] {
