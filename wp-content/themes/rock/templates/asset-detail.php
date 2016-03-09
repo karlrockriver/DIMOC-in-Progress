@@ -48,7 +48,7 @@ get_header('search'); ?>
 				<div><p class="inline">Asset Title: </p><p class="inline"><b>15022-12-921498320</b></p></div>
 				<div><p class="inline">Asset ID: </p><p class="inline"><b>1928374</b></p></div>
 				<br>
-				<div><p class="inline"><b>Narrative: </b></p><p class="inline">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+				<div><p class="inline"></p><p class="inline">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
 				<br>
 				<div><p class="inline">Status: </p>	<p class="inline"><b>Released</b></p></div>
 				<div><p class="inline">Photographer: </p>	<p class="inline"><b>John Doe</b></p></div>

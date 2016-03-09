@@ -27,7 +27,7 @@ get_header(); ?>
 		</div>
 		<div class="row" style="margin: 3rem 0;">
 			<div class="col-xs-12 col-md-4">
-				<h1 class="text-center text-color-2"><?php the_field('collection_detail_header'); ?></h1>
+				<h1 class="text-center text-color-2 no-margin-padding"><?php the_field('collection_detail_header'); ?></h1>
 			</div>
 			<div class="col-xs-12 col-sm-8">
 				<p class="no-margin-padding"><?php the_field('collection_detail_text'); ?></p>

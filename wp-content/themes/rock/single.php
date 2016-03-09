@@ -20,7 +20,6 @@ get_header(); ?>
 			
 			<div class="row">
 				<div class="col-xs-12">
-					<?php the_post_thumbnail('full'); ?>
 					<div class="post-header-gray-8"><h1 class="text-center no-margin-padding"><?php the_title(); ?></h1></div>
 				</div>
 			</div>
@@ -32,14 +31,14 @@ get_header(); ?>
 			</div>
 			
 			<div class="row">
-				<div class="col-xs-12">
+				<div class="col-xs-12 col-md-8 col-md-offset-2">
 					<?php the_content(); ?>
 				</div>
 			</div>
 
 
 		<div class="row">
-			<div class="col-xs-12">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
 			<?php the_post_navigation(); ?>
 			</div>
 		</div>

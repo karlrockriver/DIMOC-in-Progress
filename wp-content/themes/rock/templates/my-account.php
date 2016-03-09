@@ -23,7 +23,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-xs-12 col-md-3">
 				<div class="sign-in-box">
-					<h1 class="text-color-2"><?php the_field('account1_header'); ?></h1>
+					<h4 class="text-color-4 text-center"><?php the_field('account1_header'); ?></h4>
 					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Status</button></a>
 					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Download History</button></a>
 					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Lightboxes</button></a>

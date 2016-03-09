@@ -132,35 +132,35 @@ get_header(); ?>
 		<!-- Start of browse categories -->
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<div class="browse-header text-center uc text-color-4 ls1">header</div>
+				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<a href="#"><li class="browse-list-item rc">items</li></a>
 						</ul>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<div class="browse-header text-center uc text-color-4 ls1">header</div>
+				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>	
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<div class="browse-header text-center uc text-color-4 ls1">header</div>
+				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<div class="browse-header text-center uc text-color-4 ls1">header</div>
+				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<div class="browse-header text-center uc text-color-4 ls1">header</div>
+				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
@@ -200,6 +200,7 @@ get_header(); ?>
 			<div class="col-xs-12">
 				<div class="lightbox-modal">
 					<h2 class="text-color-3 text-center">Add to Lightbox</h2>
+					<hr class="hr-white">
 					<hr class="hr-white">
 					<p class="text-center no-margin-padding">Your Lightboxes:</p>
 					
