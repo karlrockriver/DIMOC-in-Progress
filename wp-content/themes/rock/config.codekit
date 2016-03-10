@@ -1202,11 +1202,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/templates\/my-account.php": {
+	"\/templates\/my-account1.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/templates\/my-account.php",
+		"inputAbbreviatedPath": "\/templates\/my-account1.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
