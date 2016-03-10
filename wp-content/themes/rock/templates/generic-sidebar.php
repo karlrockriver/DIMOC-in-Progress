@@ -25,7 +25,7 @@ get_header('search'); ?>
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 col-md-9">
-						<h1 class="text-color-2"><?php the_title(); ?></h1>
+						<h1 class="text-color-2" style="margin-top:0"><?php the_title(); ?></h1>
 						<?php the_field('generic_wysiwyg'); ?>
 					</div>
 					<div class="col-xs-12 col-md-3 sidebar">

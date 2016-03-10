@@ -230,21 +230,6 @@ get_header(); ?>
 				</div>
 			</div>
 		</div>
-
-
-<div class="row">
-	<col-xs-12>
-			<button class="button-flat-color-1">test</button>
-			<button class="button-flat-color-2">test</button>
-			<button class="button-flat-color-3">test</button>
-			<button class="button-flat-color-4">test</button>
-			<button class="button-flat-gray">test</button>
-			<button class="button-flat-full-color-1">test</button>
-			<button class="button-flat-full-color-2">test</button>
-	</col-xs-12>
-</div>
-
-
 	</div>
 </div>
 

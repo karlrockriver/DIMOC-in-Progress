@@ -12,7 +12,8 @@
  * @package Rock
  */
 
-get_header(); ?>
+get_header();
+get_header('search'); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -25,7 +26,7 @@ get_header(); ?>
 			</div>
 		</div>
 		<div class="row middle-xs">
-			<div class="col-xs-12 col-md-4 col-md-offset-4">
+			<div class="col-xs-12 col-md-8 col-md-offset-2">
 				<div class="blog-categories">
 <?php 
     $args = array(
@@ -89,8 +90,8 @@ get_header(); ?>
 					<?php $src = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), array( 5600,1000 ), false, '' ); ?>
 					<a href="<?php the_permalink(); ?>"><div class="blog-card-bg" style="background-image: url(<?php echo $src[0]; ?> ) ;"></div></a>
             	<div class="blog-card-bottom">
-	            	<a href="<?php the_permalink(); ?>"><h3 class="uc ls1"><?php the_title(); ?></h3></a>
-	                      <p style="margin-bottom: .5rem">By <?php the_author(); ?> on <?php echo the_time('l, F jS, Y'); ?></p>
+	            	<a href="<?php the_permalink(); ?>"><h1 class="blog-h1"><?php the_title(); ?></h1></a>
+	                      <h5 class="uc text-gray-6" style="margin-bottom: 0">Posted on <?php echo the_time('l, F jS, Y'); ?></h5>
 	                  <?php the_excerpt(); ?>
                 </div>
               </div>

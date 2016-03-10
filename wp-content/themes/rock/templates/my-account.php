@@ -12,7 +12,8 @@
  * @package Rock
  */
 
-get_header(); ?>
+get_header();
+get_header('search'); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -21,9 +22,15 @@ get_header(); ?>
 <div class="area-white">
 	<div class="container">
 		<div class="row">
+
+			<div class="col-xs-12">
+				<div class="container-header-color-4">
+					<h4 class="ls1 no-margin-padding"><?php the_field('account1_header'); ?></h4>
+				</div>
+			</div>
+
 			<div class="col-xs-12 col-md-3">
 				<div class="sign-in-box">
-					<h4 class="text-color-4 text-center"><?php the_field('account1_header'); ?></h4>
 					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Status</button></a>
 					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Download History</button></a>
 					<a href="#"><button class="button-flat-full-color-1" style="margin-top: 0">Lightboxes</button></a>

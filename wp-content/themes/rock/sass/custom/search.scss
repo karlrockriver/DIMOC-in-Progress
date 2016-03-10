@@ -18,7 +18,7 @@
 	margin: 0;
 	display: inline-flex;
 	align-items: center;
-	border-radius: .5rem;
+	border-radius: 4px;
 	input[type=search] {
 		color: $gray-7;
 		width: 50%;
@@ -115,7 +115,8 @@ input[type=date], .search-drop {
 	margin: 0 1rem;
 	display: flex;
 	align-items: center;
-	border-radius: .5rem;
+	border-radius: 4px;
+	box-shadow: inset 0 -2px 0 $gray-2;
 	input[type=search] {
 		color: $gray-7;
 		width: 50%;
@@ -124,6 +125,7 @@ input[type=date], .search-drop {
 		margin: 0;
 		width: 60%;
 		font-size: 1.2rem;
+		box-shadow: none;
 	}
 	input[type=search]:focus {
 		outline: none;
@@ -138,7 +140,7 @@ input[type=date], .search-drop {
 	letter-spacing: 1px;
 	padding: 0 .5rem;
 	margin: 0;
-	border-radius: .5rem;
+	border-radius: 4px;
 	}
 	.button-search-submit:hover {
 		transition: all .2s ease-in;

@@ -19,14 +19,9 @@ get_header(); ?>
 		while ( have_posts() ) : the_post(); ?>
 			
 			<div class="row">
-				<div class="col-xs-12">
-					<div class="post-header-gray-8"><h1 class="text-center no-margin-padding"><?php the_title(); ?></h1></div>
-				</div>
-			</div>
-
-			<div class="row">
 				<div class="col-xs-12 text-center">
-					<p>Written by <b><?php the_author(); ?></b> on <b><?php echo the_time('l, F jS, Y'); ?></b></p>
+					<h1 class="text-color-2"><?php the_title(); ?></h1>
+					<h5 class="no-margin-padding"><?php echo the_time('l, F jS, Y'); ?></h5>
 				</div>
 			</div>
 			
