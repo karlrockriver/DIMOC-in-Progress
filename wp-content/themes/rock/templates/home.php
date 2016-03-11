@@ -23,25 +23,18 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-xs-12 col-md-8 col-md-offset-2">
 				<div class="search-container-dark-trans">
-
-					<div class="row">
-					<div class="col-xs-12 col-sm-8">
-
 					<div class="search-container">
 						<input type="search" placeholder="Search here">
 							<div class="type-selector">
 								<label style="display: inline-block">
-									<input name="photos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin-left: .5rem">Photos</p>
+									<input name="photos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin: 0 .5rem">Photos</p>
 								</label>
 								<label style="display: inline-block">
-									<input name="videos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin-left: .5rem">Videos</p>
+									<input name="videos" checked="checked" type="checkbox"><p class="hidden-xs-inline no-margin-padding" style="margin: 0 .5rem">Videos</p>
 								</label>
 							</div>
-					</div>
-					</div>
-					<div class="col-xs-12 col-sm-4">
+					
 					<button class="button-search-submit">icon</button>
-					</div>
 					</div>
 				</div>
 			</div>
@@ -65,7 +58,7 @@ get_header(); ?>
 		<div class="row middle-xs"> <!-- header for collections -->
 			<div class="col-xs-12">
 				<div class="container-header-color-4">
-					<h4 class="ls1 no-margin-padding"><?php the_field('home_collection-1-header'); ?></h4>
+					<h4 class="ls1 no-margin-padding shadow-none"><?php the_field('home_collection-1-header'); ?></h4>
 				</div>
 			</div>
 		</div>
@@ -142,42 +135,42 @@ get_header(); ?>
 		<!-- Start of browse categories -->
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
+				<h4 class="shadow-color-1 text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<a href="#"><li class="browse-list-item rc">items</li></a>
 						</ul>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
+				<h4 class="shadow-color-1 text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>	
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
+				<h4 class="shadow-color-1 text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
+				<h4 class="shadow-color-1 text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<h4 class="browse-header text-center uc text-color-4 ls1">header</h4>
+				<h4 class="shadow-color-1 text-center uc text-color-4 ls1">header</h4>
 					<hr>
 						<ul class="browse-list">
 							<li class="browse-list-item rc"></li>
 						</ul>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
-				<a href="#"><div class="browse-bg-image text-center" style="display: flex; align-items: center; background-image:linear-gradient(to bottom, rgba(28,81,127, .7) 0%, rgba(75,125,180,0.8) 100%), url(<?php the_field('home_hero_image'); ?>)">
+				<a href="#" style="text-decoration: none"><div class="browse-bg-image text-center" style="display: flex; align-items: center; background-image:linear-gradient(to bottom, rgba(28,81,127, .7) 0%, rgba(75,125,180,0.8) 100%), url(<?php the_field('home_hero_image'); ?>)">
 					<h4 class="uc ls1">Browse all collections</h4>
 				</div></a>
 			</div>
@@ -234,6 +227,13 @@ get_header(); ?>
 </div>
 
 
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12">
+			<hr class="star-color-1">
+		</div>
+	</div>
+</div>
 
 
 <!-- start of instagram feed -->
@@ -242,7 +242,7 @@ get_header(); ?>
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="container-instagram">
-					<h4 class="uc ls1 text-color-1"><?php the_field('home_instagram_header'); ?></h4>
+					<h4 class="uc ls1 text-color-1 shadow-white"><?php the_field('home_instagram_header'); ?></h4>
 					<hr class="hr-white">
 					<hr class="hr-white">
 					<?php echo do_shortcode('[instagram-feed]'); ?>
