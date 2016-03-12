@@ -103,6 +103,10 @@
 		background-color: $white;
 		background-position: center;
 		height: 150px;
+		img {
+			display: block;
+			height: 1.5rem;
+		}
 	}
 	.container-dark-trans {
 		background-color: rgba(0,0,0,.7);

@@ -3347,6 +3347,9 @@ and also iPads specifically.
     background-color: #fff;
     background-position: center;
     height: 150px; }
+    .search-card .sc-image-bg img {
+      display: block;
+      height: 1.5rem; }
   .search-card .container-dark-trans {
     background-color: rgba(0, 0, 0, 0.7);
     position: absolute;
@@ -3749,3 +3752,54 @@ hr.star-primary:after {
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
     color: #bbbbbb; }
+
+/*==========  HERO STYLES   ==========*/
+.vid {
+  position: relative;
+  min-height: 50vh;
+  margin-bottom: 48px; }
+
+.vid-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  background: url(../assets/Strum-Away.jpg) no-repeat 50% 50%;
+  background-size: cover; }
+
+.vid-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
+  overflow: hidden; }
+
+/*==========  HERO TEXT CONTENT STYLES   ==========*/
+.vid-text {
+  position: absolute;
+  /*position: relative; is the standard, but chrome gets confused?*/
+  top: 50%;
+  left: 50%;
+  /*chrome fix, even old IE 11 works without this fix*/
+  -webkit-transform: translateY(-50%) translateX(-50%);
+      -ms-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  /*add translateX(-50%); as a fix for chrome*/
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff; }

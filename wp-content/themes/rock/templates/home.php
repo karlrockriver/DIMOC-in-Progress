@@ -186,14 +186,15 @@ get_header(); ?>
 				<h1 class="text-white text-center"><?php the_field('home_video_header'); ?></h1>
 				<p class="text-gray-3"><?php the_field('home_video_text'); ?></p>
 			</div>
-			<div class="col-xs-12 col-md-9">
-				<div class="container-instagram">
-					add video here
-				</div>
-			</div>
+					
 		</div>
 	</div>
 </div>
+
+
+
+
+
 
 
 
@@ -234,6 +235,27 @@ get_header(); ?>
 		</div>
 	</div>
 </div>
+
+
+
+
+<div class="vid">
+	<div class="vid-content">            
+	    <video autoplay loop muted class="vid-video">
+			<source src="assets/Strum-Away.webm" type="video/webm"/>
+			<source src="http://localhost:8888/rock/wp-content/uploads/2016/03/trees-movie.mp4" type="video/mp4"/>
+	        Your browser does not support the HTML5 video tag.
+		</video>
+		<div class="vid-text">
+			<h1>DIMOC Videos</h1>
+			<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+			<a href="#"><button class="button-flat-color-4">Explore</button></a>        
+		</div><!-- end hero-text--> 
+	</div><!--end hero content-->
+</div><!--end hero -->
+
+
+
 
 
 <!-- start of instagram feed -->
