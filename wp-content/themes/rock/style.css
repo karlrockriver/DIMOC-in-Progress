@@ -736,8 +736,7 @@ a {
 .main-navigation {
   clear: both;
   display: block;
-  float: left;
-  width: 100%; }
+  float: left; }
   .main-navigation ul {
     display: none;
     list-style: none;
@@ -766,13 +765,13 @@ a {
     margin-right: 1rem; }
     .main-navigation li a {
       font-family: 'Quantico', sans-serif;
-      color: #487db4; }
+      color: #1c517f; }
     .main-navigation li a:visited {
-      color: #487db4; }
+      color: #1c517f; }
     .main-navigation li a:hover {
       -webkit-transition: all .2s ease-in;
       transition: all .2s ease-in;
-      color: #1c517f; }
+      color: #184672; }
   .main-navigation a {
     display: block;
     text-decoration: none; }
@@ -819,11 +818,53 @@ a {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 60px;
   background-color: #eeeeee; }
+  @media screen and (min-width: 62rem) {
+    .site-header {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      height: 40px; } }
   @media screen and (min-width: 768px) {
     .site-header {
-      display: block; } }
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      height: 55px; } }
+  .site-header a {
+    font-family: 'Quantico', sans-serif;
+    color: #1c517f;
+    text-decoration: none;
+    text-transform: uppercase; }
+  .site-header a:visited {
+    color: #1c517f; }
+  .site-header a:hover {
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    color: #184672; }
+  .site-header .header-icon {
+    height: 1.5rem;
+    display: block;
+    float: left;
+    position: relative;
+    margin-right: .25rem; }
+    @media screen and (min-width: 75rem) {
+      .site-header .header-icon {
+        margin-right: 1.5rem; } }
+
+.header-logo {
+  width: 200px;
+  z-index: 999;
+  margin-top: .5rem; }
+  @media screen and (min-width: 62rem) {
+    .header-logo {
+      width: 300px; } }
+
+.header-icon-container {
+  display: block;
+  float: right; }
 
 /*--------------------------------------------------------------
 # Accessibility

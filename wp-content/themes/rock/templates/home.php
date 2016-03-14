@@ -34,7 +34,7 @@ get_header(); ?>
 								</label>
 							</div>
 					
-					<button class="button-search-submit">icon</button>
+					<button class="button-search-submit"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="display:block; height: 1.5rem;"></button>
 					</div>
 				</div>
 			</div>
