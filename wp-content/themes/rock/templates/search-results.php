@@ -12,7 +12,8 @@
  * @package Rock
  */
 
-get_header(); ?>
+get_header();
+get_header('search'); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -20,21 +21,21 @@ get_header(); ?>
 <div class="area-white">
 	<div class="container">
 		<div class="row middle-xs">
-			<div class="col-xs-12 col-md-5" style="margin-bottom: 1rem">
-				<h2 class="inline rc"><b>Search String:</b></h2> <h2 class="inline rc" style="margin-left: .5rem">Results</h2><h2 class="inline rc">  (number here)</h2>
+			<div class="col-xs-12 col-md-6" style="margin-bottom: 1rem">
+				<h2 class="inline rc no-margin-padding"><b>Search String:</b></h2> <h2 class="inline rc no-margin-padding" style="margin-left: .5rem">Results</h2><h2 class="inline rc no-margin-padding" style="margin-right: 1rem">  (number here)</h2>
 			</div>
-			<div class="col-xs-12 col-md-7">
-				<button class="button-flat-gray inline uc">Most Recent</button>
-				<button class="button-ghost-gray inline uc" style="margin-left: 1rem">Newest</button>
-				<button class="button-flat-gray inline uc" style="margin-left: 1rem">Most Recent</button>
-				<button class="button-ghost-gray inline uc" style="margin-left: 1rem">Newest</button>
+			<div class="col-xs-12 col-md-6">
+				<button class="button-flat-gray-1 inline uc" style="float:right; margin: 0 0 .5rem .5rem">Most Recent</button>
+				<button class="button-flat-gray-2 inline uc" style="margin: 0 0 .5rem .5rem; float:right">Newest</button>
+				<button class="button-flat-gray-1 inline uc" style="margin: 0 0 .5rem .5rem; float:right">Most Recent</button>
+				<button class="button-flat-gray-2 inline uc" style="margin: 0 0 .5rem .5rem; float:right">Newest</button>
 			</div>
 		</div>
 	</div>  <!-- end of container -->
 
 	<div class="container">
 		<div class="row">
-			<div class="col-xs-12 col-md-3">
+			<div class="col-xs-12 col-sm-3">
 				<div class="search-box">
 					<h4 class="uc ls1 text-color-2 text-center" style="margin-bottom: 1rem">Refine Search</h4>
 				
@@ -76,68 +77,66 @@ get_header(); ?>
 				</div>
 			</div>
 
-			<div class="col-xs-12 col-md-9">  <!-- start of search result cards -->
+			<div class="col-xs-12 col-sm-9">  <!-- start of search result cards -->
 				<div class="row">
 				
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
@@ -148,63 +147,60 @@ get_header(); ?>
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
@@ -215,63 +211,60 @@ get_header(); ?>
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 
 					<div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3">
 						<div class="search-card">
 							<div class="sc-image-bg" style="background-image: url(<?php the_field('search_image'); ?>)">
-					   			<div class="container-dark-trans">
+			   					<div class="container-dark-trans">
 						   			<div class="row middle-xs around-xs">
 						   				<div class="col-xs-12">
-						   				icons
+						   					<p class="inline text-white">Name</p><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/message-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a><a href="#"><img src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100-white.svg" style="inline; float: right; margin-right: .5rem; height: 1.25rem;"></a>
 						   				</div>
 						   			</div>
 					   			</div>
-					   		</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			   				</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 						</div> 
 					</div>
 

@@ -31,20 +31,20 @@
 	<header id="masthead" class="site-header" role="banner">
 		
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-3">
-					<img src="images/dimoc-logo.png">
-				</div>
-				<div class="col-xs-7">
-					<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rock' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
-				</div>
-				<div class="col-xs-2">
-
-		
-				</div>
+			<div class="row middle-xs" style="margin-top: -.5rem">
+					<img class="header-logo" src="http://localhost:8888/rock/wp-content/uploads/2016/03/dimoc-logo.png">
+					<nav id="site-navigation" class="main-navigation" role="navigation" style="margin-left: 2rem">
+					<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'rock' ); ?></button>
+					<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+					</nav><!-- #site-navigation -->
+				
+					<div class="header-icon-container">
+						<a href="#"><img class="header-icon" src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/cart-100.svg"></a>
+						<a href="#"><img class="header-icon" src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/lightbox-100.svg"></a>
+						<a href="#"><img class="header-icon" src="http://dimocstaging.rockriverdev.com/wp-content/uploads/2016/03/user-100.svg"></a>
+						<a href="#" class="text-color-3 inline"><b>Sign In</b></a>
+					</div>
+				
 			</div>
 		</div>
 	</header><!-- #masthead -->

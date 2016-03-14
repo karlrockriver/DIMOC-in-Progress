@@ -129,6 +129,7 @@ function new_excerpt_more($more) {
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
+
 /**
  * Enqueue scripts and styles.
  */
@@ -150,6 +151,18 @@ function rock_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'rock_scripts' );
+
+
+
+
+// Allow SVGs to be uploaded to Wordpress Media
+/*****/
+function cc_mime_types($mimes) {
+  $mimes['svg'] = 'image/svg+xml';
+  return $mimes;
+}
+add_filter('upload_mimes', 'cc_mime_types');
+
 
 /**
  * Implement the Custom Header feature.

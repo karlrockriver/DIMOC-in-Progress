@@ -6,10 +6,16 @@ table {
 	border-collapse: collapse;
 	font-family: 'Roboto Condensed', sans-serif;
 }
+
 /* Zebra striping */
 tr:nth-of-type(odd) { 
 	background: $gray-2; 
 }
+
+tr:nth-of-type(even) { 
+	background: $gray-1; 
+}
+
 th { 
 	background: $color-3;
 	color: $white;
@@ -18,7 +24,7 @@ th {
 
 td, th { 
 	padding: 6px; 
-	border: 1px solid $gray-3; 
+	border: 2px solid $white;
 	text-align: left; 
 }
 
@@ -72,12 +78,14 @@ only screen and (max-width: 760px),
 	/*
 	Label the data
 	*/
+	.table-1{
 	td:nth-of-type(1):before { content: "Name"; }
 	td:nth-of-type(2):before { content: "Public"; }
 	td:nth-of-type(3):before { content: "# Files"; }
 	td:nth-of-type(4):before { content: "Created"; }
 	td:nth-of-type(5):before { content: "Users"; }
 	td:nth-of-type(6):before { content: "Admin"; }
+}
 
 	.table-2 {
 	td:nth-of-type(1):before { content: "File"; }
